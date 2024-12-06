@@ -1,0 +1,22 @@
+2024-12-06 22:51:19,164 - INFO - Connection to MySQL established!
+2024-12-06 22:51:19,389 - INFO - Loaded Excel file: in/employes_data.xlsx
+2024-12-06 22:51:19,389 - INFO - Processing sheet: employes
+2024-12-06 22:51:19,409 - INFO - Retrieved columns for table employes: ['id', 'nom', 'prenom', 'date_embauche', 'poste']
+2024-12-06 22:51:19,409 - INFO - MySQL columns: ['id', 'nom', 'prenom', 'date_embauche', 'poste']
+2024-12-06 22:51:19,409 - INFO - Excel columns: ['id', 'prenom', 'nom', 'poste', 'date_embauche']
+2024-12-06 22:51:19,409 - INFO - Enter the column order as a list of indices (e.g., [2, 0, 1]):
+2024-12-06 22:51:37,338 - INFO - Reordered columns in DataFrame with order: [0, 2, 1, 4, 3]
+2024-12-06 22:51:37,345 - INFO - Foreign key checks disabled.
+2024-12-06 22:51:37,348 - INFO - Inserted 3 rows into employes.
+2024-12-06 22:51:37,350 - INFO - Foreign key checks enabled.
+2024-12-06 22:51:37,350 - INFO - Processing sheet: enfants
+2024-12-06 22:51:37,366 - INFO - Retrieved columns for table enfants: ['id', 'employe_id', 'nom', 'date_naissance', 'indemnites']
+2024-12-06 22:51:37,367 - INFO - MySQL columns: ['id', 'employe_id', 'nom', 'date_naissance', 'indemnites']
+2024-12-06 22:51:37,367 - INFO - Excel columns: ['id', 'nom', 'date_naissance', 'employe_id', 'indemnites']
+2024-12-06 22:51:37,368 - INFO - Enter the column order as a list of indices (e.g., [2, 0, 1]):
+2024-12-06 22:52:09,734 - INFO - Reordered columns in DataFrame with order: [0, 3, 1, 2, 4]
+2024-12-06 22:52:09,736 - INFO - Foreign key checks disabled.
+2024-12-06 22:52:09,745 - INFO - Inserted 3 rows into enfants.
+2024-12-06 22:52:09,748 - INFO - Foreign key checks enabled.
+2024-12-06 22:52:09,759 - INFO - Data import completed successfully.
+2024-12-06 22:52:09,761 - INFO - MySQL connection closed.

@@ -1,0 +1,20 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore log files
+import_log.log
+
+# Ignore Excel data files (if not needed in the repository)
+# in/employes_data.xlsx
+
+# Ignore environment or dependency files (if using virtualenv or similar)
+venv/
+*.env
+
+# Ignore IDE specific files (if using VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore requirements lock files (optional)
+Pipfile.lock
