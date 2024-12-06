@@ -27,7 +27,7 @@ Avant d'exécuter le script, assurez-vous d'avoir les éléments suivants :
 Clonez ou téléchargez ce projet depuis le dépôt.
 
 ```bash
-git clone <repository>
+git clone https://github.com/GHamza-Dev/tp-bdd-excel2mysql
 ```
 
 #### 2. **Configurer MySQL**
